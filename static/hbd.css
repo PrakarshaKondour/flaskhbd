@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/image-features-vibrant-birthday-bash-brightly-colored-background-theme-picture-filled-fun-excitement-359005680.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:rgb(74, 74, 162);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: justify;
+}
+.bday{
+  width: 80%;
+  background-color: rgb(247, 172, 75);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+img{
+    align-self: center;
+}
+figure{
+    border: 2px solid powderblue;
+    padding: 10px;
+    margin: 35px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRveBQS9baEMmbQ0kfIgKELeOJ_hvhGexFk8A&s");
+    border-radius:10px;
+}
+.nav-button {
+      background-color:chocolate; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 5px;
+      margin-right: 50px;
+      border-radius: 10px;
+      cursor: pointer;
+    }

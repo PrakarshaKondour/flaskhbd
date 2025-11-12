@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <style>
+        body{
+        background-image:url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: lighten;
+        }
+        .flex-container {
+      display: flex;
+      gap: 20px;              /* adds spacing between items */
+      justify-content: center; /* center horizontally */
+      align-items: center;     /* center vertically */
+      height: 100vh;
+      margin-top: 58px;
+      margin-bottom: 58px;
+      
+    }
+    .box {
+      background-color:gold;
+      padding: 12px;
+      font-size: 20px;
+      border-radius: 10px;
+      box-shadow:0 0 5px rgba(0,0,0.1);
+    }
+    </style>
+</head>
+<body>
+   <div class="flex-container">
+    <form>
+            <div class="box">
+                Select Occasion:<br> 
+                <INPUT TYPE="RADIO" NAME="R1"/>BIRTHDAY</INPUT>
+                <INPUT TYPE="RADIO" NAME="R1"/>ANNIVERSARY</INPUT>
+                <INPUT TYPE="RADIO" NAME="R1"/>GRADUATION</INPUT>
+                <INPUT TYPE="RADIO" NAME="R1"/>WEDDING</INPUT>
+                <INPUT TYPE="RADIO" NAME="R1"/>OTHER CELEBRATION</INPUT>
+            </div>     
+            <div class="box">
+                PERSONAL DETAILS: <br> 
+                <fieldset>
+            <legend>Recipient Name</legend>
+            <INPUT TYPE="TEXT" NAME="T1" size="25"
+          </fieldset>
+          <fieldset>
+            <legend>Age(if applicable)</legend>
+            <INPUT TYPE="INT" NAME="T1" size="5"
+          </fieldset>
+            </div>  
+            <div class="box">
+                Who are you sending this to? <BR> 
+                <INPUT TYPE="checkbox" NAME="C1"/>MOTHER
+                <INPUT TYPE="checkbox" NAME="C2"/>FATHER
+                <INPUT TYPE="checkbox" NAME="C3"/>SISTER
+                <INPUT TYPE="checkbox" NAME="C4"/>BROTHER
+                <INPUT TYPE="checkbox" NAME="C5"/>FRIEND
+                <INPUT TYPE="checkbox" NAME="C6"/>SPOUSE/PARTNER
+            </div> 
+            <div class="box">
+                Custom Message <br>
+                <TEXTAREA NAME="TA1" ROWS='07' COLS="40"></TEXTAREA> <BR><BR>
+            </div>
+        
+            <div class="box">
+                Additional Info <br>
+                <TEXTAREA NAME="TA1" ROWS='2' COLS="50"></TEXTAREA> <BR><BR>
+            </div>
+            <div class="box" align="center">
+              <INPUT TYPE="SUBMIT" VALUE="SENT WITH LOVE"/>
+            </div>
+        </form>
+    
+    
+</body>
+</html>
